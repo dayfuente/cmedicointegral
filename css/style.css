@@ -1,0 +1,571 @@
+
+
+html{
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x:hidden;
+}
+
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    font-family: 'Raleway', sans-serif;
+}
+
+h2{
+   
+    font-family: 'Raleway', sans-serif;  
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif; 
+}
+
+h4{
+    font-family: 'Raleway', sans-serif;
+}
+H5{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/****************************** ZONA CABECERA ***************************/
+
+.form-inline .form-control{
+    width: 120px;
+}
+
+.colorbuscador{
+    background-color: #08cae8;
+    color: white;
+}
+
+.letramenu{
+    color: black;
+    font-size: 14px;
+}
+
+.letramenu:hover{
+    
+    color: #08cae8;
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: #08cae8;
+}
+
+.sinpading{
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}
+
+
+.cabecera{
+    height: 250px;
+    padding:0;
+}
+
+.cabeceracookies{
+    height: 250px;
+    width: 100%;
+    padding:0;
+    background-color: #08cae8;
+    padding-top: 100px;
+}
+
+
+#cartelcentral{
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+    padding: 40px;
+    background: #08cae8;
+    text-align: center;
+    bottom: 150px;
+    height: 330px;
+}
+
+#cartelcentralr{
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    background: #08cae8;
+    text-align: center;
+    bottom: 150px;
+    height: 330px;
+}
+ 
+.rellenotexto{
+    font-weight: 500;
+    color:white;
+}
+.bordelinea{
+    border-bottom: 6px solid white;
+   
+}
+.rayaazul{
+
+    width: 65px;
+    height: 2px;
+    background: #08cae8;
+    border: none;
+
+}
+.cuadradoservicios{
+    
+    border-radius: 20px;
+    height: 250px;
+    background-color: #e5f8f9;
+}
+.circulomenu{
+    display: inline-block;
+    margin: -64.5px 0 30px;
+    width: 129px;
+    height: 129px;
+    background: #fff;
+    font-size: 40px;
+    color: #08cae8;
+    line-height: 150px;
+    border: 2px solid #08cae8;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    transition: all .3s linear;
+}
+
+.circulomenu:hover{
+
+ background-color: #08cae8;   
+    
+}
+
+.cuadradoservicios .circulomenu h4{
+    font-family: 'Raleway';
+}
+.tamaño14px{
+    font-size: 15px;
+    font-family: 'Raleway';
+}
+
+.h2servicio{
+    color:#08cae8;
+}
+
+.contorno{
+    -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+    border: 1px solid lightgray;
+}
+
+
+.space-limit{
+    margin-bottom: 120px;
+}
+
+.cuadradoservicios h4{
+    color:black;
+}
+
+
+/********************ICONOS SERVICIOS************************/
+#cirpsicologia{
+    background-image: url('/img/imgservicios/cerebro.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#cirpsicologia:hover{
+    background-image: url('/img/imgservicios/cerebroblanco.png');
+}
+
+#cirlogopedia{
+    background-image: url('/img/imgservicios/cabeza.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#cirlogopedia:hover{
+    background-image: url('/img/imgservicios/cabezablanco.png');
+}
+
+#cirlabios{
+    background-image: url('/img/imgservicios/labios.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#cirlabios:hover{
+    background-image: url('/img/imgservicios/labiosblanco.png');
+}
+
+#cirestetica{
+    background-image: url('/img/imgservicios/cirugiaplastica.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#cirestetica:hover{
+    background-image: url('/img/imgservicios/cirugiaplasticablanco.png');
+}
+
+#ciryoga{
+    background-image: url('/img/imgservicios/guerrero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#ciryoga:hover{
+    background-image: url('/img/imgservicios/guerreroblanco.png');
+}
+
+#cirfisioterapia{
+    background-image: url('/img/imgservicios/masaje.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#cirfisioterapia:hover{
+    background-image: url('/img/imgservicios/masajeblanco.png');
+}
+
+#cirmatrona{
+    background-image: url('/img/imgservicios/bebe.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#cirmatrona:hover{
+    background-image: url('/img/imgservicios/bebeblanco.png');
+}
+
+#cirterapias{
+    background-image: url('/img/imgservicios/acupuntura.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#cirterapias:hover{
+    background-image: url('/img/imgservicios/acupunturablanco.png');
+}
+
+
+/***********************************FIN ICONOS SERVICIOS*****************************************************/
+
+
+/***********************************MENU*****************************************************/
+
+
+
+
+
+.masmenu{
+    margin-top: 65px;
+    height: 25px;
+    background-image: url('/img/imgservicios/mas.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.masmenu:hover{
+    background-image: url('/img/imgservicios/masblanco.png');
+   
+}
+
+#masmenufisio{
+    margin-top: 13px;
+    height: 25px;
+    background-image: url('/img/imgservicios/mas.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#masmenufisio:hover{
+    background-image: url('/img/imgservicios/masblanco.png');
+   
+}
+
+#masmenuterapias{
+    margin-top: 40px;
+    height: 25px;
+    background-image: url('/img/imgservicios/mas.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#masmenuterapias:hover{
+    background-image: url('/img/imgservicios/masblanco.png');
+   
+}
+
+
+/***********************************MENU RESPONSIVE***************************************************/
+
+
+.menuresp{
+    width: 100%;
+    border:1px solid #08cae8;
+    height:auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.menurespparablog{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+
+.cajamenu{
+    background-color: #08cae8;
+    width: 100%;
+    height: 40px;
+    ;
+}
+
+.cajamenu:hover{
+    background-color: white;
+    
+}
+
+.letramenuresponsive{
+    text-decoration: none;
+    color:white;
+   
+}
+
+.letramenuresponsive:hover{
+    color:#08cae8;
+}
+
+.menuresp .button5 a{
+    color: white;
+}
+
+.menuresp .button5 a:hover{
+    color:#08cae8;
+    font-size: 21px;
+}
+
+.espaciador{
+    height: 90px;
+}
+
+
+
+/**********************************div instalaciones y novedades***************************************************/
+
+
+.divinstalaciones{
+    background-color: #e5f8f9;
+    height: auto;
+}
+
+
+.divnovedades{
+    background-color: #e5f8f9;
+    height: auto;
+}
+
+
+
+/***********************************CAROUSEL*****************************************************/
+
+
+
+
+#carouselExampleIndicators{
+width: 100%;
+}
+
+.carousel-iner .view{
+    width: 2000px;
+    height: auto;
+}
+
+.carousel-caption h3 {
+    color:white;
+    font-weight: bold ;
+}
+
+
+/************************* ZONA NOVEDADES **************************/
+
+img .zoom {
+    width: 350px;
+    height: 200px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.card:hover{
+  border: 2px solid #08cae8;
+}
+
+
+/*************************formulario**************************/
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+
+
+.fondocontacto{
+    background-image: url('../img/imgcontacto/formulario.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 200px;
+}
+
+@media (max-width: 575.98px) { 
+    .fondocontacto{
+        background-image: url('../img/imgcontacto/formulario2.png');
+    }
+ }
+
+
+/*************************cajagoogleMAPS**************************/
+
+
+
+.cajamaps{
+    font-size: 35px;
+    background: #08cae8;
+    height: 400px;
+    width: 80%;
+    border-radius: 20px;
+   
+}
+
+.cajamapsr{
+    
+    background: #08cae8;
+    height: 280px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.cajamapsr p{
+    font-size: 12px;
+    color:white;
+    font-weight: 600;
+}
+
+.cajamaps p{
+    font-size: 15px;
+    color:white;
+    font-weight: 600;
+}
+
+.botonform{
+    width: 120px;
+    height:50px;
+    border-radius: 30px;
+    background-color: #08cae8;
+    border:1px solid #36A0FF;
+}
+
+
+.botonform:hover{
+    cursor: pointer;
+    width: 140px;
+    height:70px;
+    color: white;
+    border-radius: 30px;
+    background-color: darkblue;
+    border:1px solid #08cae8;
+}
+
+/*************************FOOTER**************************/
+
+.footer{
+    background: #08cae8;
+    height: auto;
+
+}
+
+.subfooter{
+    background: #01bce7;
+    height: 50px;
+}
+
+.letrafooter{
+    color:white;
+}
+
+
+
+
+.colorletrafooter{
+    color:white;
+    font-size: 17px;
+}
+
+
+.border{
+    border:1px solid black;
+}
+
+
+
+.divgranny{
+    height: 320px;
+}
+
+/****FLECHA FLOTANTE ******/ 
+
+.flotante {
+    display:scroll;
+    position:fixed;
+    bottom:15px;
+    right:15px;
+}
+
+#flotantediv a{
+    text-decoration: none;
+    color: gray;
+}
+
+/****CABECERA CONTACTO******/ 
+
+
+.ascensor{
+    position: relative;
+    bottom: 150px;
+    color: white;
+    
+}
+
+.letracontacto{
+    font-size: 18px;
+}
+
+
+/***PRUEBA****/
+
+@media (max-width: 767.98px) { 
+    .ocultar{
+        display: none;
+    }
+ }
