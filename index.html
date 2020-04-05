@@ -1640,7 +1640,7 @@
                     <div class="row ">
                         <div class="col-12 col-lg-6 ">
                             <div class="well well-sm ">
-                                <form class="form-horizontal " method="post" action="formulario.php"  >
+                                <form class="form-horizontal " method="post" action="formulario.php" onsubmit="validacion()">
                                 
                                         <!---------------------------------- Se recogen los datos del usuario en php------------------------------------>
                                         
@@ -1670,7 +1670,7 @@
                                                   
                                                   <input type="checkbox" id="cbox2" value="second_checkbox"  required> <label class="mr-5" for="cbox2">Acepto la <a href="/politica-de-privacidad.html">política de privacidad.</a></label>
                                                   <br>
-                                                  <button id="boton" style="float:left" type="submit" class="button5  botonform">Enviar</button>
+                                                  <button id="boton" style="float:left" type="submit" class="button5 d-none botonform">Enviar</button>
                                             </div>
                                             
                                             
@@ -1787,11 +1787,22 @@
     </script>
     
     <script>
-        document.getElementById("boton").disabled = true;
-
+        
         function enableBtn(){
-    document.getElementById("boton").disabled = false;
-   }
+    $('#boton').removeClass('d-none')
+        }
+        </script>
+
+    <script>
+        function validacion() {
+            var response = grecaptcha.getResponse();
+
+            if (response.length == 0) {
+
+            } else {
+                enableBtn();
+            }
+        }
     </script>
     
 </body>
